@@ -5,4 +5,4 @@ testNil
 	
 	root := self parse: 'a = nil'.
 	
-	self assert: root at: 'a' equals: nil.
+	self assert: root at: #a equals: nil.

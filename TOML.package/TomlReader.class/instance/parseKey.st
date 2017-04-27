@@ -3,9 +3,9 @@ parseKey
 		
 	self skipWhitespace.
 	
-	(stream peekFor: $") ifTrue: [ ^ self parseSingleString ].
-	(stream peekFor: $') ifTrue: [ ^ self parseSingleLiteralString ].
+	(stream peekFor: $") ifTrue: [ ^ self parseSingleString asSymbol ].
+	(stream peekFor: $') ifTrue: [ ^ self parseSingleLiteralString asSymbol ].
 		
-	^ self parseBareKey	
+	^ self parseBareKey asSymbol	
 		
 "	^ self transferBuffer"

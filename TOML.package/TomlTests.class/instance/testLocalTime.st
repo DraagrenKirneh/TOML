@@ -9,5 +9,5 @@ testLocalTime
 	'.
 	
 	self 
-		assert: dict at: 'lt1' equals: (Time hour: 7 minute: 32 second: 0);
-		assert: dict at: 'lt2' equals: (Time hour: 0 minute: 32 second: 0 nano: 999999).
+		assert: dict at: #lt1 equals: (Time hour: 7 minute: 32 second: 0);
+		assert: dict at: #lt2 equals: (Time hour: 0 minute: 32 second: 0 nano: 999999).

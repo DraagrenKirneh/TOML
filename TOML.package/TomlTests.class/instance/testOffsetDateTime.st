@@ -14,8 +14,8 @@ testOffsetDateTime
 	odt3 := DateAndTime year: 2979 month: 5 day: 27 hour: 11 minute: 17 second: 01 nanoSecond: 999999 * 1000 offset: 7 hours.
 	
 	self 
-		assert: dct at: 'odt1' equals: odt1;
-		assert: dct at: 'odt2' equals: odt2;
-		assert: dct at: 'odt3' equals: odt3
+		assert: dct at: #odt1 equals: odt1;
+		assert: dct at: #odt2 equals: odt2;
+		assert: dct at: #odt3 equals: odt3
 		
 	

@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	
-	current := root := Dictionary new.
+	current := root := self newDictionary.
 			
 	buffer := (String new: 100) writeStream.
 	newline := String cr.

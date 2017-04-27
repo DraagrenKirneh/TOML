@@ -22,11 +22,11 @@ testKeyVariations
 		assert: dct size 					equals: 10;
 		assert: dct values asSet size 	equals:  1;
 			
-		assert: dct at: 'key' 			equals: 'value';
-		assert: dct at: 'key2\t' 		equals: 'value';
-		assert: dct at: '1234' 			equals: 'value';
-		assert: dct at: 'ʎǝʞ' 			equals: 'value';
-		assert: dct at: String tab 		equals: 'value'.
+		assert: dct at: #'key' 			equals: 'value';
+		assert: dct at: #'key2\t' 		equals: 'value';
+		assert: dct at: #'1234' 			equals: 'value';
+		assert: dct at: #'ʎǝʞ' 			equals: 'value';
+		assert: dct at: Symbol tab 		equals: 'value'.
 
 
 

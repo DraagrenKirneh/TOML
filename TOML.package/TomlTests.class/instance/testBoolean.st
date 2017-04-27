@@ -4,10 +4,10 @@ testBoolean
 	| dict |
 	
 	dict := self parse: '
-		True = true
-		False = false
+		bool1 = true
+		bool2 = false
 	'.
 	
 	self 
-		assert: dict at: 'True'  equals: true ;
-		assert: dict at: 'False' equals: false.
+		assert: dict at: #bool1  equals: true ;
+		assert: dict at: #bool2 equals: false.

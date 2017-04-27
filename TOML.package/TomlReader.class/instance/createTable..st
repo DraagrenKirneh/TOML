@@ -8,7 +8,7 @@ createTable: aTableKey
 	tableParent 
 		at: aTableKey last 
 		ifPresent: [ :table | self duplicateKey ]
-		ifAbsentPut: [ 	current := Dictionary new ]
+		ifAbsentPut: [ 	current := self newDictionary ]
 
 	
 	

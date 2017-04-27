@@ -4,7 +4,7 @@ createArrayEntry: aTableKey
 	| tableParent |
 	
 	tableParent := self tableParentAt: aTableKey.
-	current := Dictionary new.
+	current := self newDictionary.
 	 
 	tableParent at: aTableKey last 
 		ifPresent: [ :col | 

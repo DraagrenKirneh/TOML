@@ -19,7 +19,7 @@ testArrayOfTables
 	
 	self assert: dct size equals: 1.
 	
-	array := dct at: 'products'.
+	array := dct at: #products.
 	
 	self 
 		assert: array size equals: 3;
@@ -28,12 +28,12 @@ testArrayOfTables
 		assert: (array at: 2) isEmpty;
 		assert: (array at: 3) size equals: 3;
 		
-		assert: (array at: 1) at: 'name' 	equals: 'Hammer';
-		assert: (array at: 1) at: 'sku' 	equals: 738594937;
+		assert: (array at: 1) at: #name 	equals: 'Hammer';
+		assert: (array at: 1) at: #sku 	equals: 738594937;
 			
-		assert: (array at: 3) at: 'name' 	equals: 'Nail';
-		assert: (array at: 3) at: 'sku' 	equals: 284758393;
-		assert: (array at: 3) at: 'color' equals: 'gray'	
+		assert: (array at: 3) at: #name 	equals: 'Nail';
+		assert: (array at: 3) at: #sku 	equals: 284758393;
+		assert: (array at: 3) at: #color equals: 'gray'	
 			
 	
 	

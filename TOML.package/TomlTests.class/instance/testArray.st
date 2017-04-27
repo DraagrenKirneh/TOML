@@ -21,7 +21,7 @@ testArray
 		]
 	'.
 	
-	dct := dct at: 'array'.
+	dct := dct at: #array.
 	
 	self 
 		assert: dct size equals: 7;

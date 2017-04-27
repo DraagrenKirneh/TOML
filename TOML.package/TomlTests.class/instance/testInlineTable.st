@@ -10,11 +10,11 @@ testInlineTable
 	
 	self 
 	
-		assert: (root at: 'name') at: 'first' equals: 'Tom';
-		assert: (root at: 'name') at: 'last' equals: 'Preston-Werner';
+		assert: root atPath: #(name first) equals: 'Tom';
+		assert: root atPath: #(name last)  equals: 'Preston-Werner';
 	
-		assert: (root at: 'point') at: 'x' equals: 1;
-		assert: (root at: 'point') at: 'y' equals: 2;
+		assert: root atPath: #(point x)  equals: 1;
+		assert: root atPath: #(point y)  equals: 2;
 		
 		assert: root equals: ( 
 			self parse: '

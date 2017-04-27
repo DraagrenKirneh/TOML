@@ -13,12 +13,12 @@ One
 Two"""
 	'.
 	
-	dct := (root at: 'string') at: 'multiline'.
+	dct := (root at: #string) at: #multiline.
 	value := 'One' , String cr , 'Two'.
 	
 	self 
-		assert: dct at: 'key1' equals: value;
-		assert: dct at: 'key2' equals: value;
-		assert: dct at: 'key3' equals: value
+		assert: dct at: #'key1' equals: value;
+		assert: dct at: #'key2' equals: value;
+		assert: dct at: #'key3' equals: value
 		
 		

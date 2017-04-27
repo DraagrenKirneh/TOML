@@ -3,7 +3,7 @@ parseInlineTable
 
 	| dict |
 	
-	dict := Dictionary new.
+	dict := self newDictionary.
 	
 	[ 
 		self skipWhitespaceAndComments.

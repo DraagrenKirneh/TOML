@@ -14,5 +14,5 @@ testBasicReference2
 	'.
 	
 	self 
-		assert: (dict at: 'x') at: 'x' equals: (dict at: 'x');
-		assert: (dict at: 'x') at: 'b' equals: 21
+		assert: dict atPath: #(x x) equals: (dict at: #x);
+		assert: dict atPath: #(x b) equals: 21

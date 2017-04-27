@@ -8,8 +8,8 @@ testClassCommentExample
 	port = 4567
 	'.
 
-	serverConfig := config at: 'server'.
+	serverConfig := config at: #server.
 	
 	self 
-		assert: (serverConfig at: 'ip') equals: '10.0.0.51';
-		assert: (serverConfig at: 'port') equals: 4567
+		assert: (serverConfig at: #ip) equals: '10.0.0.51';
+		assert: (serverConfig at: #port) equals: 4567

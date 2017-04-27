@@ -19,8 +19,8 @@ trimmed in raw strings.
 
 	self 
 		assert: dict size equals: 2;
-		assert: dict at: 'regex2' equals: s1;
-		assert: dict at: 'lines' equals: s2
+		assert: dict at: #regex2 equals: s1;
+		assert: dict at: #lines equals: s2
 	
 	
 	

@@ -10,9 +10,9 @@ config := TomlReader parse: '
 ip = "10.0.0.51"
 port = 4567
 '.
-serverConfig := config at: 'server'.
-serverConfig at: 'ip'. "'10.0.0.51'"
-serverConfig at: 'port'. "4567"
+serverConfig := config at: #server.
+serverConfig at: #ip. "'10.0.0.51'"
+serverConfig at: #port. "4567"
 ------------------------------------------------------------
 
 This implementation supports the 0.4 version  of TOML.

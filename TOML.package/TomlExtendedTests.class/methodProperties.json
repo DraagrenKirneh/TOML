@@ -2,10 +2,10 @@
 	"instance" : {
 		"testCyclicReference" : "HenrikNergaard 4/24/2017 23:40",
 		"testDeepReference" : "HenrikNergaard 4/25/2017 00:01",
-		"testBasicReference" : "HenrikNergaard 4/24/2017 15:20",
-		"testNil" : "HenrikNergaard 4/24/2017 23:59",
+		"testBasicReference" : "HenrikNergaard 4/27/2017 14:49",
+		"testNil" : "HenrikNergaard 4/27/2017 14:54",
 		"testNotNil" : "HenrikNergaard 4/25/2017 00:00",
-		"testBasicReference2" : "HenrikNergaard 4/26/2017 14:06",
+		"testBasicReference2" : "HenrikNergaard 4/27/2017 14:54",
 		"parserClass" : "HenrikNergaard 4/25/2017 00:05"
 	},
 	"class" : { }

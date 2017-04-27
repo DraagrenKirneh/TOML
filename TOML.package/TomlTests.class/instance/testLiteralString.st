@@ -12,12 +12,12 @@ testLiteralString
 		regex    = ''<\i\c*\s*>''
 	'.
 	
-	dct := (root at: 'string') at: 'literal'.
+	dct := (root at: #string) at: #literal.
 	
 	self 
-		assert: dct at: 'winpath' equals: 'C:\Users\nodejs\templates';
-		assert: dct at: 'winpath2' equals: '\\ServerX\admin$\system32\';
-		assert: dct at: 'quoted' equals: 'Tom "Dubs" Preston-Werner';
-		assert: dct at: 'regex' equals: '<\i\c*\s*>'
+		assert: dct at: #winpath equals: 'C:\Users\nodejs\templates';
+		assert: dct at: #winpath2 equals: '\\ServerX\admin$\system32\';
+		assert: dct at: #quoted equals: 'Tom "Dubs" Preston-Werner';
+		assert: dct at: #regex equals: '<\i\c*\s*>'
 		
 		

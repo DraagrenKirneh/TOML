@@ -6,5 +6,5 @@ testSameLineTables
 	
 	self 
 		assert: root size equals: 2;
-		assert: (root at: 'a') at: 'a' equals: 5;
-		assert: (root at: 'b') at: 'b' equals: 7
+		assert: root atPath: #(a a) equals: 5;
+		assert: root atPath: #(b b) equals: 7

@@ -7,7 +7,7 @@ tableParentAt: aTablekey
 	
 	parent := root.
 	aTablekey allButLastDo: [ :keyPart |
-		parent := parent at: keyPart ifAbsentPut: [ Dictionary new ].
+		parent := parent at: keyPart ifAbsentPut: [ self newDictionary ].
 		parent isDictionary ifFalse: [ parent := parent last ].
 	].
 

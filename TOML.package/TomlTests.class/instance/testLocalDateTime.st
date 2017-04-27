@@ -12,5 +12,5 @@ testLocalDateTime
 	ldt2 := DateAndTime year: 1979 month: 5 day: 27 hour: 10 minute: 32 second: 13 nanoSecond: 999999 * 1000 offset: Duration zero.
 	
 	self 
-		assert: dct at: 'ldt1' equals: ldt1;
-		assert: dct at: 'ldt2' equals: ldt2
+		assert: dct at: #ldt1 equals: ldt1;
+		assert: dct at: #ldt2 equals: ldt2
