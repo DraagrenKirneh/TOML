@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HenrikNergaard 4/27/2017 14:20",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfTOML",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfTOML",
+	"type" : "normal"
+}
