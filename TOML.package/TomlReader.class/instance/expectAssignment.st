@@ -1,0 +1,4 @@
+expecting
+expectAssignment
+
+	self expectChar: $=

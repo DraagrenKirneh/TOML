@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HenrikNergaard 4/27/2017 13:49",
+	"super" : "Object",
+	"category" : "TOML",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tableKey"
+	],
+	"name" : "TomlReference",
+	"type" : "normal"
+}

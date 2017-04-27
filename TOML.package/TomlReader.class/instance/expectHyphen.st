@@ -1,0 +1,4 @@
+expecting
+expectHyphen
+
+	self expectChar: $-

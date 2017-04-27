@@ -1,0 +1,4 @@
+expecting
+expectRightBracket
+
+	self expectChar: $]

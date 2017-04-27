@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "HenrikNergaard 4/27/2017 13:47",
+	"super" : "Object",
+	"category" : "TOML",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"root",
+		"current",
+		"stream",
+		"buffer",
+		"newline"
+	],
+	"name" : "TomlReader",
+	"type" : "normal"
+}

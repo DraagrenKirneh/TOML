@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TomlTests",
+	"category" : "TOML",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TomlExtendedTests",
+	"type" : "normal"
+}

@@ -1,0 +1,2 @@
+TomlReference is a holder for another entry somewhere in the file being parsed. 
+This reference acts as an unique object that is replaced by what the tableKey points to after the file has been completely parsed.
