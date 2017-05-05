@@ -35,7 +35,7 @@ config tomlAtPath: #(server port). "4567"
 ## Extensions
 This package includes an extended TOML parser that supports table referencing and `nil` value types.
 
-```toml
+```
 [palette]
 red = 'ff0000'
 [widget]
