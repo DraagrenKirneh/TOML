@@ -10,11 +10,13 @@ parseSingleString
 		(char = $\ and: [ backslash not ])
 			ifTrue: [ backslash := true ]
 			ifFalse: [  
-				backslash 
-					ifTrue: [ self handleBackslash: char multiline: false. backslash := false]
-					ifFalse: [ 
-						char = $" ifTrue: [ ^ self transferBuffer ].
-						buffer nextPut: char 
+				backslash ifTrue: [ 
+					backslash := false.
+					self backslash: char
+				]
+				ifFalse: [ 
+					char = $" ifTrue: [ ^ self transferBuffer ].
+					buffer nextPut: char 
 				].
 		]
 	].

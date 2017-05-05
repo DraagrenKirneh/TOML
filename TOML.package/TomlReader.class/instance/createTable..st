@@ -7,7 +7,10 @@ createTable: aTableKey
 
 	tableParent 
 		at: aTableKey last 
-		ifPresent: [ :table | self duplicateKey ]
+		ifPresent: [ :table | 
+			self verifyIndirectTable: table.
+			current := table 	
+		]
 		ifAbsentPut: [ 	current := self newDictionary ]
 
 	

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HenrikNergaard 4/27/2017 14:48",
+	"commentStamp" : "HenrikNergaard 5/5/2017 10:38",
 	"super" : "Object",
 	"category" : "TOML",
 	"classinstvars" : [ ],
@@ -8,6 +8,7 @@
 	"instvars" : [
 		"root",
 		"current",
+		"indirect",
 		"stream",
 		"buffer",
 		"newline"

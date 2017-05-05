@@ -3,9 +3,6 @@ assert: aDictionary atPath: aTableKey equals: anObject
 
 	| item |
 	
-	item := aDictionary.
-	aTableKey do: [ :keyPart | 
-		item := item at: keyPart
-	].
+	item := aDictionary tomlAtPath: aTableKey.
 
 	self assert: item equals: anObject 

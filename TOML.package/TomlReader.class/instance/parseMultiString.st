@@ -11,7 +11,8 @@ parseMultiString
 			backslash := true 
 		] ifFalse: [ 
 			backslash ifTrue: [ 
-				self handleBackslash: char multiline: true. backslash := false
+				backslash := false.
+				self multilineBackslash: char. 
 			] ifFalse: [ 
 				char = $" ifTrue: [ 
 					(count := count + 1) > 2 ifTrue: [ ^ self transferBuffer ] 
