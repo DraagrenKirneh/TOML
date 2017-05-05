@@ -18,17 +18,29 @@ Metacello new
 
 ## Example
 
+```smalltalk
+| config |
+config := TomlReader parse: '
+flag = true
+[server]
+ip = "10.0.0.51"
+port = 4567
+'.
+
+config at: #flag. "true"
+config tomlAtPath: #(server ip). "'10.0.0.51'"
+config tomlAtPath: #(server port). "4567"
+```
+
 ## Extensions
-This package also include an extended TOML parser that adds referencing and `nil` as value types.
-
-
-## Known limitations
+This package includes an extended TOML parser that supports table referencing and `nil` value types.
 
 ```toml
-[a.b]
-c = 1
-[a]
-d = 2
+[palette]
+red = 'ff0000'
+[widget]
+background = @palette.red
+something = nil
 ```
 
 [toml]: https://github.com/toml-lang/toml
