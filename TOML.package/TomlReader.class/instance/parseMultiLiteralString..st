@@ -1,5 +1,5 @@
 parsing - string
-parseMultiLiteralString
+parseMultiLiteralString: aNumber
 	
 	| count |
 	
@@ -7,9 +7,12 @@ parseMultiLiteralString
 	self skipLinebreak.
 	stream do: [ :char |
 		char = $' ifTrue: [ 
-			count < 2 
-				ifFalse: [ ^ self transferBuffer ]
-				ifTrue: [ count := count + 1 ]	
+			count = aNumber
+				ifTrue: [ 
+					[ stream peekFor: $' ] whileTrue: [ buffer nextPut: $' ].
+					^ self transferBuffer 
+				]
+				ifFalse: [ count := count + 1 ]	
 		] 
 		ifFalse: [ 
 			count > 0 ifTrue: [ buffer next: count put: $'. count := 0 ].
