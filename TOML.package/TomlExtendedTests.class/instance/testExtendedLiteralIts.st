@@ -3,13 +3,13 @@ testExtendedLiteralIts
 
 	| root text input |
 	
-	text := ' It''s '.
+	text := ' It' , ($' asString repeat: 4), 's '.
 	input := String streamContents: [ :stream |
 		stream 
 			<< 'text = ';
-			next: 3 put: $';
-			<< ' It''s ';
-			next: 3 put: $'			
+			next: 5 put: $';
+			<< text;
+			next: 5 put: $'			
 	].
 
 	root := self parse: input.
