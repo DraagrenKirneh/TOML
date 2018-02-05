@@ -6,6 +6,7 @@ testInlineTable
 	root := self parse: '
 		name = { first = "Tom", last = "Preston-Werner" }
 		point = { x = 1, y = 2 }
+		animal = { type.name = "pug" }
 	'.
 	
 	self 
@@ -16,6 +17,8 @@ testInlineTable
 		assert: root atPath: #(point x)  equals: 1;
 		assert: root atPath: #(point y)  equals: 2;
 		
+		assert: root atPath: #(animal type name) equals: 'pug';
+		
 		assert: root equals: ( 
 			self parse: '
 			[name]
@@ -24,7 +27,10 @@ testInlineTable
 
 			[point]
 			x = 1
-			y = 2'
+			y = 2
+			
+			[animal.type]
+			name = "pug"	'
 		)
 		
 	
