@@ -3,7 +3,7 @@ parseKeyValuePair
 
 	| key |
 	
-	key := self parseKey.
+	key := self parseTableKey.
 	
 	self expectAssignment.
 		

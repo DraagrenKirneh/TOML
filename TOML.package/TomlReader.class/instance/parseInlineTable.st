@@ -9,7 +9,7 @@ parseInlineTable
 		self skipWhitespaceAndComments.
 		(stream peekFor: $}) ifTrue: [ ^ dict ].
 	
-		dict add: self parseKeyValuePair.
+		dict tomlAdd: self parseKeyValuePair.
 		
 		self skipWhitespaceAndComments.		
 		(stream peekFor: $}) ifTrue: [ ^ dict ].
