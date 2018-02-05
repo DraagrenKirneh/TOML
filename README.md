@@ -41,7 +41,7 @@ red = 'ff0000'
 [widget]
 background = @palette.red
 something = nil
-text = ''' It's '''
+text = ''''' It''''s '''''
 
 
 ```
