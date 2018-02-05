@@ -33,7 +33,7 @@ config tomlAtPath: #(server port). "4567"
 ```
 
 ## Extensions
-This package includes an extended TOML parser that supports table referencing and `nil` value types.
+This package includes an extended TOML parser that supports table referencing, `nil` value, and ' in multiline literals.
 
 ```
 [palette]
@@ -41,6 +41,9 @@ red = 'ff0000'
 [widget]
 background = @palette.red
 something = nil
+text = ''' It's '''
+
+
 ```
 
 [toml]: https://github.com/toml-lang/toml
