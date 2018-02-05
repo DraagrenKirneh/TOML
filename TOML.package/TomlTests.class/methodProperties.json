@@ -25,7 +25,7 @@
 		"testFloat" : "HenrikNergaard 4/27/2017 14:53",
 		"testTableMustBeNonEmpty" : "HenrikNergaard 4/24/2017 19:42",
 		"testErrorNoKeyName" : "HenrikNergaard 2/5/2018 20:25",
-		"testInlineTable" : "HenrikNergaard 2/5/2018 20:35",
+		"testInlineTable" : "HenrikNergaard 2/5/2018 22:13",
 		"testLocalTime" : "HenrikNergaard 4/27/2017 14:48",
 		"testInvalidEscapedCharacter" : "HenrikNergaard 4/27/2017 13:53",
 		"assert:at:arrayEquals:" : "pbCompiler 3/29/2017 16:19",

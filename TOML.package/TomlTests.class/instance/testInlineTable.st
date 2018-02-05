@@ -29,8 +29,8 @@ testInlineTable
 			x = 1
 			y = 2
 			
-			[animal.type]
-			name = "pug"	'
+			[animal]
+			type.name = "pug"	'
 		)
 		
 	
