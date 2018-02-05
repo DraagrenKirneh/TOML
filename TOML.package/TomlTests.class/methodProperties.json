@@ -1,5 +1,6 @@
 {
 	"instance" : {
+		"testInvalidTableB" : "HenrikNergaard 4/24/2017 19:44",
 		"parse:" : "HenrikNergaard 4/19/2017 01:15",
 		"testInteger" : "HenrikNergaard 4/27/2017 14:53",
 		"testInvalidTableC" : "HenrikNergaard 4/24/2017 19:44",
@@ -10,6 +11,7 @@
 		"testMultilineStringContinued" : "HenrikNergaard 4/27/2017 14:56",
 		"testBackToSuperTable" : "HenrikNergaard 5/5/2017 10:15",
 		"assertErrorParsing:" : "HenrikNergaard 4/24/2017 23:36",
+		"testBinaryNumber" : "HenrikNergaard 2/5/2018 21:24",
 		"assert:atPath:equals:" : "HenrikNergaard 5/5/2017 10:31",
 		"testBasicString" : "HenrikNergaard 4/27/2017 14:49",
 		"testDottedKeys" : "HenrikNergaard 2/5/2018 20:23",
@@ -37,11 +39,12 @@
 		"testMultiLiteralString" : "HenrikNergaard 4/27/2017 14:50",
 		"assertError:parsing:" : "HenrikNergaard 4/20/2017 14:25",
 		"testDottedKeyInTable" : "HenrikNergaard 2/5/2018 20:30",
+		"testOctals" : "HenrikNergaard 2/5/2018 21:18",
 		"testArrayOfTables2" : "HenrikNergaard 3/30/2017 21:13",
 		"testInvalidTableA" : "HenrikNergaard 4/24/2017 19:44",
 		"testArrayOfTables" : "HenrikNergaard 4/27/2017 14:45",
 		"testBoolean" : "HenrikNergaard 4/27/2017 14:55",
-		"testInvalidTableB" : "HenrikNergaard 4/24/2017 19:44",
+		"testHexadecimals" : "HenrikNergaard 2/5/2018 21:17",
 		"testFloatLiterals" : "HenrikNergaard 2/5/2018 20:58"
 	},
 	"class" : { }

@@ -5,7 +5,7 @@ parseInteger
 	
 	number := 0.
 	
-	[ stream atEnd not and: [ (next := stream next) isDigit ] ] whileTrue: [ 
+	[ stream atEnd not and: [ (next := stream next) isDigit ] ] whileTrue: [
 		number := 10 * number + next digitValue.
 		self skipUnderscore
 	].
