@@ -10,7 +10,7 @@ parseDate: year
 	day := self parseInteger.
 	
 	date := Date newDay: day month: month year: year.	
-	^ (stream peekFor: $T) 
+	^ ((stream peekFor: $T) or: [ self hasSpaceInOffsetDateTime ]) 
 		ifTrue: [ self parseDateTime: date ]
 		ifFalse: [ date ]
 	

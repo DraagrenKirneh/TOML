@@ -6,7 +6,8 @@ testOffsetDateTime
 	dct := self parse: '
 		odt1 = 1447-10-05T07:30:00Z
 		odt2 = 2000-01-01T00:04:00-07:00
-		odt3 = 2979-05-27T11:17:01.999999-07:00'
+		odt3 = 2979-05-27T11:17:01.999999-07:00
+		odt4 = 1447-10-05 07:30:00Z'
 	.
 		
 	odt1 := DateAndTime year: 1447 month: 10 day: 5 hour: 7 minute: 30 second: 0 offset: 0 hours.
@@ -16,6 +17,7 @@ testOffsetDateTime
 	self 
 		assert: dct at: #odt1 equals: odt1;
 		assert: dct at: #odt2 equals: odt2;
-		assert: dct at: #odt3 equals: odt3
+		assert: dct at: #odt3 equals: odt3;
+		assert: dct at: #odt4 equals: odt1
 		
 	
