@@ -1,16 +1,16 @@
 {
 	"instance" : {
-		"testBasicReference2" : "HenrikNergaard 4/27/2017 14:54",
-		"testDeepReference" : "HenrikNergaard 4/25/2017 00:01",
-		"testBasicReference" : "HenrikNergaard 4/27/2017 14:49",
-		"testNil" : "HenrikNergaard 4/27/2017 14:54",
-		"testExtendedLiteralIts" : "HenrikNergaard 2/5/2018 22:06",
-		"testNotNil" : "HenrikNergaard 4/25/2017 00:00",
 		"parserClass" : "HenrikNergaard 4/25/2017 00:05",
-		"testExtendedLiteralStringLong" : "HenrikNergaard 2/4/2018 18:18",
+		"testBasicReference" : "HenrikNergaard 4/27/2017 14:49",
+		"testBasicReference2" : "HenrikNergaard 4/27/2017 14:54",
 		"testCyclicReference" : "HenrikNergaard 4/24/2017 23:40",
+		"testDeepReference" : "HenrikNergaard 4/25/2017 00:01",
+		"testExtendedLiteralIts" : "HenrikNergaard 2/5/2018 22:06",
 		"testExtendedLiteralStringEmpty" : "HenrikNergaard 2/4/2018 18:16",
-		"testExtendedLiteralStringNormal" : "HenrikNergaard 2/4/2018 18:16"
+		"testExtendedLiteralStringLong" : "HenrikNergaard 2/4/2018 18:18",
+		"testExtendedLiteralStringNormal" : "HenrikNergaard 2/4/2018 18:16",
+		"testNil" : "HenrikNergaard 4/27/2017 14:54",
+		"testNotNil" : "HenrikNergaard 4/25/2017 00:00"
 	},
 	"class" : { }
 }
