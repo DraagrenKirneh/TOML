@@ -1,5 +1,5 @@
 # TOML
-Smalltalk parser for [TOML][toml] v0.4.
+Smalltalk parser for [TOML][toml] v0.5.
 
 ## Requirements
 Pharo 6 image >= 60455 (for Time>>hour:minute:second:nano:)

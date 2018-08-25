@@ -1,16 +1,16 @@
 {
 	"instance" : {
-		"parseNil" : "HenrikNergaard 4/24/2017 23:46",
-		"initialize" : "HenrikNergaard 4/24/2017 18:33",
-		"resolveReferencesIn:" : "HenrikNergaard 4/27/2017 13:56",
-		"resolve:in:at:" : "HenrikNergaard 4/25/2017 00:04",
-		"parseLiteralString" : "HenrikNergaard 2/4/2018 18:13",
-		"parse" : "HenrikNergaard 4/27/2017 13:56",
-		"tokenish:" : "HenrikNergaard 2/5/2018 20:50",
-		"parseReference" : "HenrikNergaard 4/25/2017 00:04",
-		"tableAt:" : "HenrikNergaard 4/24/2017 15:19",
 		"errorCyclicLookup" : "HenrikNergaard 4/24/2017 23:32",
-		"lookupValueAt:excluding:" : "HenrikNergaard 4/25/2017 00:04"
+		"initialize" : "HenrikNergaard 4/24/2017 18:33",
+		"lookupValueAt:excluding:" : "HenrikNergaard 4/25/2017 00:04",
+		"parse" : "HenrikNergaard 4/27/2017 13:56",
+		"parseLiteralString" : "HenrikNergaard 2/4/2018 18:13",
+		"parseNil" : "HenrikNergaard 4/24/2017 23:46",
+		"parseReference" : "HenrikNergaard 4/25/2017 00:04",
+		"resolve:in:at:" : "HenrikNergaard 4/25/2017 00:04",
+		"resolveReferencesIn:" : "HenrikNergaard 4/27/2017 13:56",
+		"tableAt:" : "HenrikNergaard 4/24/2017 15:19",
+		"tokenish:" : "HenrikNergaard 2/5/2018 20:50"
 	},
 	"class" : { }
 }
